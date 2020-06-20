@@ -3,18 +3,18 @@
 Webhookでスパムしてくれる何か。悪用厳禁。
 
 # 設置のやり方
-1.まずWebサーバー(PHPが使えるもの)を作るか、または契約する
-(xreaやstarfreeなどの無料鯖でも可。WixやJindoなどの、無料でサイトを作るようなアレは不可。)
-2.上のwebhookspam.phpとwebhookspamtool.phpをサーバーに置く。
-(cgi-binでもおｋ。PHPが動くディレクトリに置くこと。)
-3.webhookspamtool.phpにアクセスする。やり方は
-http://(※サーバーのアドレス)/webhookspamtool.php
-※ここはwebhookspamtool.phpとwebhookspam.phpを置いたディレクトリにすること。
-例えばcgi-binに置いたのならば、
-http://(サーバーのアドレス)/cgi-bin/webhookspamtool.php
-/var/www/html/test/に置いたのならば、
-http://(※サーバーのアドレス)/test/webhookspamtool.php
-となる。
+1.まずWebサーバー(PHPが使えるもの)を作るか、または契約する<br>
+(xreaやstarfreeなどの無料鯖でも可。WixやJindoなどの、無料でサイトを作るようなアレは不可。)<br>
+2.上のwebhookspam.phpとwebhookspamtool.phpをサーバーに置く。<br>
+(cgi-binでもおｋ。PHPが動くディレクトリに置くこと。)<br>
+3.webhookspamtool.phpにアクセスする。やり方は<br>
+http://(※サーバーのアドレス)/webhookspamtool.php<br>
+※ここはwebhookspamtool.phpとwebhookspam.phpを置いたディレクトリにすること。<br>
+例えばcgi-binに置いたのならば、<br>
+http://(サーバーのアドレス)/cgi-bin/webhookspamtool.php<br>
+/var/www/html/test/に置いたのならば、<br>
+http://(※サーバーのアドレス)/test/webhookspamtool.php<br>
+となる。<br>
 
 #使い方
 URLのところにはWebhookのURLを貼り付ける。
